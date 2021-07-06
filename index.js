@@ -1,9 +1,3 @@
-const testString1 = "(((((()))())))))";
-const testString2 = "((()()))";
-const testString3 = "))((";
-const testString4 = "()";
-const testString5 = ")))((()))(((";
-
 function validateBrackets(string) {
   const array1 = string.split('');
   
